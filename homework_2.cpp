@@ -1,4 +1,4 @@
-﻿#include <iostream>
+﻿л#include <iostream>
 #include <limits>
 #include <cmath>
 
@@ -87,7 +87,7 @@ int main() {
 	double second_x = 0;
 	if (DISCRIMINANT > 0) {
 		if (a == 0) {
-			int x = (-c) / (b + .0f);
+			double x = (-c) / (b + .0f);
 			first_x = x;
 			std::cout << "x1 = " << first_x << std::endl;
 		} else {
