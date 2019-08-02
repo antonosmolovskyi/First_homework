@@ -23,7 +23,7 @@ int main() {
 			}
 		}
 	} else if (a > INT_MAX) {
-		while (value == true) {
+		while (true) {
 			std::cout << "Wrong number, please, entering number more! then: " << INT_MAX << std::endl;
 			std::cin >> a;
 
