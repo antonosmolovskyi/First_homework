@@ -3,7 +3,6 @@
 #include <cmath>
 
 int main() {
-	bool value = true;
 	long long a = 0;
 	std::cout << "The equation: ax^2+bx+c" << std::endl;
   const int INT_MIN = std::numeric_limits<int>::min();
@@ -88,7 +87,7 @@ int main() {
 	double second_x = 0;
 	if (DISCRIMINANT > 0) {
 		if (a == 0) {
-			x = (-c) / (b + .0f);
+			int x = (-c) / (b + .0f);
 			first_x = x;
 			std::cout << "x1 = " << first_x << std::endl;
 		} else {
